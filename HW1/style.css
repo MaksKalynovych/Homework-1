@@ -1,0 +1,61 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Stadt{ 
+    padding: 50px 20px 10px 20px ;
+    border:15px solid rgb(0, 0, 0) ;
+    margin: 50px 500px 50px 425px; 
+    width: 375px;
+    height: 500px;
+    background-color: rgb(243, 239, 7);
+}
+.Natur{
+    border: 5px groove rgb(38, 119, 10);
+    padding: 5px 10px 5px 5px ;
+    margin: 10px 20px;
+    background-color: rgb(49, 223, 226);
+}
+.Industrie{
+    border: 5px double rgb(224, 5, 5);
+    padding: 5px 10px 5px 5px;
+    margin: 10px 20px;
+    background-color: rgb(191, 128, 20);
+}
+.Menschen{
+    border: 5px dashed rgb(35, 21, 185);
+    padding: 5px 10px 5px 5px;
+    margin: 10px 20px; 
+    background-color: blanchedalmond;
+}
+
+ul{
+    list-style-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjc8q-5K15_N7DlE1WiGQZOse4Oa6lGXWczg&s);
+    padding-left: 500px;
+    color: aqua;
+} 
+ol{
+    list-style-image: url(https://www.bmw.by/content/dam/bmw/common/all-models/5-series/sedan/2023/ice2_Titan-Bronze_810-501.png); 
+    padding-left: 925px;
+color: blue;} 
+
+table, th, td{ 
+    border: 5px groove red;
+} 
+
+table{
+    border-collapse: collapse;
+} 
+
+tbody tr:nth-child(odd){
+    background-color: yellow;}
+
+tbody tr:nth-child(even){
+    background-color: rgba(6, 82, 14, 0.998);
+} 
+.size50 {
+    padding: 100px;
+}
